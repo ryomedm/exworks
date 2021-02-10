@@ -1,0 +1,200 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+.headerInner{
+   position: relative;
+}
+.header{
+   display: flex;
+   justify-content: space-around;
+   background: #85AE39;
+   min-height: 6vh;
+}
+.headerLogo{
+   padding-top: 18px;
+   text-decoration: none;
+   padding-bottom: 18px;
+   text-align: center;
+}
+.headerLogo a{
+   text-decoration: none;
+   font-size: 32px;
+   font-family: 'Montserrat', sans-serif;
+}
+.headerLogo a:hover{
+   opacity: 0.5;
+}
+.headerNav{
+   display: flex;
+   margin-left: auto;
+   margin-right: auto;
+}
+.headerNav li{
+   list-style-type: none;
+   margin-top: 11px;
+   margin-left: 42px;
+}
+.headerNav a{
+   text-decoration: none;
+   font-family: 'Noto Sans JP', sans-serif;
+   font-size: 18px;
+   color: #fff;
+}
+.headerNav a:hover{
+   opacity: 0.5;
+}
+
+.snsBar{
+   background: #000;
+   width: 50px;
+   border-radius: 15px;
+   margin-top: 410px;
+   position: fixed;
+}
+.snsBar i{
+   color: #fff;
+   padding: 6px 6px 6px 11px;
+}
+/*ニュース*/
+.newsWrapper{
+   max-width: 800px;
+   margin: 0 auto;
+   margin-bottom: 220px;
+}
+.newsTitle{
+   font-size: 60px;
+   font-family: 'Noto Sans JP', sans-serif;
+   text-align: center;
+   padding-top: 120px;
+   padding-bottom: 80px;
+}
+
+.newsSpan{
+   font-family: 'Noto Sans JP', sans-serif;
+   border: 1px solid #000;
+   padding: 7px 10px;
+   margin: 16px;
+   font-size: 14px;
+}
+
+.newsTxt{
+   font-family: 'Noto Sans JP', sans-serif;
+   border-bottom: 1px solid #000;
+   padding: 25px 0;
+}
+/*ニュースここまで*/
+.mainContents{
+   max-width: 1600px;
+   margin: 0 auto;
+}
+.mainTopImg{
+   width: 100%;
+}
+.sekoujireiInner{
+   background-color: #f2f2f2;
+}
+.sekoujireiBox{
+   padding-bottom: 120px;
+   max-width: 1300px;
+   margin: 0 auto;
+   margin-bottom: 220px;
+}
+.sekouPic{
+   justify-content: space-around;
+   margin-bottom: 150px;
+   display: flex;
+}
+.sekouImg{
+   width: 500px;
+   transition: 0.5s;
+   border-radius:15px ;
+   border: 1px solid #000;
+}
+.sekouImg:hover{
+   transform: translateY(-15px);
+}
+.sekoutitle{
+   font-size: 60px;
+   text-align: center;
+   padding: 120px 20px;
+   font-family: 'Noto Sans JP', sans-serif;
+}
+.sekouBox{
+   text-align: center;
+}
+.sekouTxt{
+   font-family: 'Noto Sans JP', sans-serif;
+   font-size: 22px;
+}
+.sekouTxtD{
+   font-size: 33px;
+   padding-top: 21px;
+   font-family: 'Noto Sans JP', sans-serif;
+}
+.btn{
+   border: 1px solid #000;
+   border-radius: 35px;
+   width: 200px;
+   padding: 13px 20px;
+   font-size: 18px;
+   text-decoration: none;
+   color: #555;
+}
+.btn:hover{
+   color: #fff;
+   transition: 0.9s;
+   background: #000;
+}
+.btnWrapper{
+   text-align: center;
+}
+.formWrapper{
+   max-width: 800px;
+   margin: 0 auto;
+   margin-bottom: 120px;
+}
+
+.formTitle{
+   font-family: 'Noto Sans JP', sans-serif;
+   text-align: center;
+   font-size: 60px;
+   margin-top: 120px;
+   margin-bottom: 100px;
+}
+label{
+   display: block;
+   font-size: 19px;
+   margin-top: 40px;
+   margin-bottom: 10px;
+}
+input{
+   width: 220px;
+   height: 30px;
+   border: 1px solid #555;
+   border-radius: 15px;
+   background: #f2f2f2;
+}
+textarea{
+   border: 1px solid #555;
+   border-radius: 15px;
+   background: #f2f2f2;
+   width: 450px;
+   height: 150px;
+}
+.formBtn{
+   display: block;
+   border-radius: 15px;
+   border: 1px solid #000;
+   margin-top: 30px;
+   width: 160px;
+}
+.footer{
+   background: #51672B;
+}
+.footer p{
+   color: #fff;
+   padding: 30px;
+   text-align: center;
+}
